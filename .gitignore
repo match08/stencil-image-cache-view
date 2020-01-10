@@ -8,6 +8,7 @@ www/
 *.tmp
 *.tmp.*
 log.txt
+package-lock.json
 *.sublime-project
 *.sublime-workspace
 
