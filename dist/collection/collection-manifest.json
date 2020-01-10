@@ -1,0 +1,53 @@
+{
+  "components": [
+    {
+      "tag": "st-cached-image",
+      "dependencies": [],
+      "componentClass": "CachedImage",
+      "componentPath": "components/stencil-cached-image/cached-image.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/stencil-cached-image/cached-image.css"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "errorHolder",
+          "type": "String",
+          "attr": "error-holder"
+        },
+        {
+          "name": "placeHolder",
+          "type": "String",
+          "attr": "place-holder"
+        },
+        {
+          "name": "src",
+          "type": "String",
+          "attr": "src",
+          "watch": [
+            "srcChanged"
+          ]
+        }
+      ],
+      "states": [
+        {
+          "name": "id"
+        }
+      ],
+      "hostElement": {
+        "name": "element"
+      },
+      "shadow": true
+    }
+  ],
+  "collections": [],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "0.9.9",
+    "typescriptVersion": "2.9.2"
+  },
+  "bundles": []
+}
