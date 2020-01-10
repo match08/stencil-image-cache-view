@@ -6,8 +6,8 @@
 
 ## Install
 **[Capacitor Image Cache](https://www.npmjs.com/package/capacitor-image-cache)** is require for this package
-* `npm i capacitor-image-cache st-cached-image`
-
+* new version:  `npm i git+https://github.com/match08/stencil-image-cache-view.git`
+* old version: `npm i capacitor-image-cache st-cached-image`
 ## Usage
 
 
